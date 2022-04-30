@@ -1,5 +1,4 @@
 - name: Setup Database Server
-
   hosts: db_servers
   become: yes
   become_method: sudo

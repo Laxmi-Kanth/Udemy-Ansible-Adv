@@ -1,3 +1,4 @@
+
 - name: Set up networking
   hosts: localhost
   gather_facts: False
@@ -38,8 +39,8 @@
       mail:
         host: smtp.gmail.com
         port: 465
-        username: mmumshad@gmail.com
+        username: laxmikanth.db2dba@gmail.com
         password: "{{ g_password }}"
-        to: Mumshad Mannambeth <mmumshad@gmail.com>
+        to: Laxmi Kanth <laxmikanth.db2dba@gmail.com>
         subject: Ansible-report
         body: 'Go to http://{{ lb_result.external_ip }} to access your web application.'

@@ -1,5 +1,5 @@
 ---
-    - name: Install MySQL database
+    - name: Install MySQL  database
       apt: name={{ item }} state=installed force=yes
       with_items:
         - mysql-server
